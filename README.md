@@ -1,7 +1,5 @@
 # taborg
 organise tabs
+TabOrg
 
-this will also have ai
-
-
-I am a sports person
+browsers will be detected automatically: firefox, chrome, edge
