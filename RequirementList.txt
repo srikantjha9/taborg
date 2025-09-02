@@ -1,0 +1,76 @@
+TabOrg
+
+If I need to store a lot of websites for reference then what are important things that I need ?
+
+Tabs are stored are over the days, so DATE is required.
+URL of tabs
+NUMBERING of tabs
+TITLE of a every tabs
+whether the tabs have been READ or UNREAD or PARTIALLY READ or CURRENTly in use
+CATEGORISE the tabs based on the contents
+
+After going through a tab we will either DELETE it or SAVE it for future
+Exctarct the main WEBSITE from the URL
+SAVE the tabs in a file
+READ the tabs from file
+SHIFT the tabs UP and DOWN 
+(we need to LAUNCH the tabs on Web Browser)
+
+Conditions:
+It is MANDATORY to at least fill the url if adding a tab 
+DUPLICATE tabs cannot occur on a single day
+FILTER tabs
+
+SERIAL NUMBER    uint32_t
+DATE    std::time::now()
+URL     std::string
+TITLE    std::time::now()
+READ/NOT READ/PARTIALLY READ/CURRENT enum 
+CATEGORISE enum
+
+categorise the above data based on how closely they are coupled or can exist only in the group
+URL
+DATE
+TITLE
+(get Website info also)
+
+SERIAL NUMBER
+
+Actions: READ, NOT READ, PARTIALLY
+
+CURRENT
+
+CATEGORY
+
+Operations 
+
+Create
+Append a tab ( with one or two or all the field, URL is compulsary)
+Insert a tab based on serial number
+
+Read
+Read a tab from a position
+Read all the tabs
+Read the last tab
+Read a tab based on parameter(s)
+
+Update
+Edit a tab based on parameter(s)
+Edit all the tabs
+
+Delete
+Delete all the tabs
+Delete a tab based on parameter(s)
+
+Complex actions:
+FILER and operate on tabs
+
+
+failure handling
+
+checks and warning to be taken care of
+--------------------------------------------------------------------------------------------------------------------
+
+Deployment report containing the deployments done on a vehicle and updates itself when it connects to cloud
+
+All the football matches(starting from LaLiga, EPL, Bundesliga, Serie A) and their score to be displayed along with table. Sync on internet.  
