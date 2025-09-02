@@ -69,8 +69,16 @@ FILER and operate on tabs
 failure handling
 
 checks and warning to be taken care of
+
+make a logger class
+make a failure handling class ( or not required)
+
+use  extern "C" - for name mangling prevention something
 --------------------------------------------------------------------------------------------------------------------
 
 Deployment report containing the deployments done on a vehicle and updates itself when it connects to cloud
 
-All the football matches(starting from LaLiga, EPL, Bundesliga, Serie A) and their score to be displayed along with table. Sync on internet.  
+All the football matches(starting from LaLiga, EPL, Bundesliga, Serie A) and their score to be displayed along with table. Sync on internet. 
+
+--------------------------------------------------------------------------------------------------------------------
+

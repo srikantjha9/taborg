@@ -1,0 +1,47 @@
+for first time "git push"
+
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ ls
+main  main.cpp  README.md  RequirementList.txt  tabOperations.hpp  tabStruct.cpp  tabStruct.hpp
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git init
+Reinitialized existing Git repository in /home/sdv-2407/Documents/2025/September/02Sep25/taborg/.git/
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git add .
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git commit -m "taborg upload SA"
+[main 21d26ea] taborg upload SA
+ 6 files changed, 295 insertions(+)
+ create mode 100644 RequirementList.txt
+ create mode 100755 main
+ create mode 100644 main.cpp
+ create mode 100644 tabOperations.hpp
+ create mode 100644 tabStruct.cpp
+ create mode 100644 tabStruct.hpp
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git remote add origin https://github.com/srikantjha9/taborg.git
+error: remote origin already exists.
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git remote remove origin
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git remote add origin https://github.com/srikantjha9/taborg.git
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git branch -M main
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ git push -u origin main
+Username for 'https://github.com': srikantjha9
+Password for 'https://srikantjha9@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 5.71 KiB | 5.71 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/srikantjha9/taborg.git
+   ac9f8f5..21d26ea  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+jha_s@infl151:~/Documents/2025/September/02Sep25/taborg$ 
+
+
+for subsequent changes push
+
+git add .
+git commit -m "message"
+git push -u origin main
+
+--------------------------------------------
+
+there is no point of using extern with a function
+
+You can edit the ~/.gitconfig file in your home folder. This is where all --global settings are saved.
