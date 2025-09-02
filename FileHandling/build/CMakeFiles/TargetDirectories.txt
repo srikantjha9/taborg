@@ -1,0 +1,3 @@
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/build/CMakeFiles/edit_cache.dir
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/build/CMakeFiles/rebuild_cache.dir
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/build/CMakeFiles/cmake_hello.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall CMakeFiles/cmake_hello.dir/hello.cpp.o CMakeFiles/cmake_hello.dir/lib/math/Operations.cpp.o -o bin/cmake_hello 

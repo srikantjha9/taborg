@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/hello.cpp
+iostream
+-
+lib/math/Operations.hpp
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/lib/math/Operations.hpp
+
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/lib/math/Operations.cpp
+exception
+-
+stdexcept
+-
+iostream
+-
+Operations.hpp
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/lib/math/Operations.hpp
+
+/home/sdv-2407/Documents/2025/August/17Aug25/FileHandling/lib/math/Operations.hpp
+
